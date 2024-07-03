@@ -1,4 +1,22 @@
-// เริ่มเขียนโค้ดตรงนี้ 
-function printStar() {
-   
+// needed output
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+// เริ่มเขียนโค้ดตรงนี้
+function printStar(row) {
+  let finalResult = "";
+  for (let i = 1; i <= row; i++) {
+    let = rowResult = "";
+
+    for (let j = 1; j <= i; j++) {
+      rowResult += "* " + "\t";
+    }
+    finalResult += rowResult + "\n";
+  }
+  return finalResult;
 }
+
+console.log(printStar(5));
